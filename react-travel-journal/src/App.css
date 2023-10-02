@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.headerTitle {
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(92, 89, 89);
+    box-shadow: 1px 1px 2px rgb(166, 165, 165);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #e7bcbc;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 2.5px;
+}
+.fa-solid {
+    font-size: 20px;
+    color: #dca7a7;
+}
+.headBar {
+    padding: 10px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 100px;
+}
