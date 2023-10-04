@@ -7,8 +7,8 @@
 .headerTitle {
     width: 100vw;
     height: fit-content;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(92, 89, 89);
+    background-color: #e7bcbc;
+    border-bottom: 1px solid #e7bcbc;
     box-shadow: 1px 1px 2px rgb(166, 165, 165);
     display: flex;
     position: fixed;
@@ -16,23 +16,59 @@
     align-items: center;
 }
 h1 {
-    color: #e7bcbc;
+    color: white;
     font-size: 25px;
     font-weight: 300;
-    margin-top: 2.5px;
-}
-.fa-solid {
-    font-size: 20px;
-    color: #dca7a7;
 }
 .headBar {
     padding: 10px;
 }
+.headerTitle i {
+    color: white;
+    font-size: 25px;
+}
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 260px;
     align-self: center;
     border-radius: 5px;
     object-fit: cover;
-    margin: 100px;
+    margin: 0px 50px;
+    box-shadow: 1px 1px 5px #776060;
+}
+.cards {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #e7bcbc;
+}
+.fa-solid {
+    font-size: 18px;
+    color: #dca7a7;
+    display: inline;
+    padding-left: 0;
+}
+.inline {
+    display: flex;
+}
+h3 {
+    font-weight: 300;
+}
+h2, h3, p {
+    margin: 5px
+}
+.desc {
+    max-width: 500px;
+}
+.divider{
+    margin: 40px;
+    border-top: 1px solid #d1d0d7;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #d1d0d7;
 }

@@ -4,7 +4,7 @@ import React from 'react'
 export default function Header(){
     return (
         <div className="headerTitle">
-            <i className="fa-solid fa-map-pin headBar"></i>
+            <i class="fa-solid fa-passport"></i>
             <h1 className="headBar" >aeiaieo's travel journal</h1>
         </div>
     )
